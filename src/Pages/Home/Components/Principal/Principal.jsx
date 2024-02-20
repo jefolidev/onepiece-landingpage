@@ -1,4 +1,4 @@
-import { Barco, Button, ContBarco, ContText, ContSocial, Elements, MainContainer, Overlay, SubTitle, Title, Social, TopButton } from "./style"
+import { Barco, Button, ContBarco, ContText, ContSocial, Elements, MainContainer, SubTitle, Title, Social} from "./style"
 import background from "../../../../assets/background.png"
 
 function Principal() {
@@ -9,7 +9,6 @@ function Principal() {
     
 
             <MainContainer style = {{ backgroundImage: `url(${background})` }}>
-                <Overlay/>
                     <Elements> 
                         <ContBarco>
                             <Barco src = "\src\assets\sunny-go.png"/>

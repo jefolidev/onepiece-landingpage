@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "../../size";
 
 export const NavLogo = styled.div`
 
@@ -11,14 +12,19 @@ export const LogoImg = styled.img`
     width: 180px;
     height: 100px;
 
-    position: absolute;
+    position: relative;
         left: 90px;
         top: -5px;
-        z-index: 10;
+        z-index: 1;
 
     &:hover {
         cursor: pointer;
     }
+
+    @media ${breakpoints.md} {
+        left: 110px;
+
+}
 `
 export const NavbarStyled = styled.nav`
 
@@ -33,8 +39,17 @@ export const NavbarStyled = styled.nav`
         justify-content: space-around;
         gap: 100px;
 
-    position: sticky;
+    position: relative;    
     z-index: 0;
+
+    @media ${breakpoints.md} {
+        left: 110px;
+        position: sticky;
+        top: 0;
+        z-index: 10;
+
+}
+
 `
 
 
@@ -51,6 +66,11 @@ export const NavbarPagesUl = styled.ul`
     font-size: 18px;
     font-family: 'Bree Serif';
     list-style: none;
+
+    @media ${breakpoints.md} {
+        gap: 20px;
+
+}
 
 
 

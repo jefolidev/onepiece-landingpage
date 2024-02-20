@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "../../size";
 
 export const Background = styled.div`
     background-color: rgba(2, 16, 36);
@@ -9,6 +10,14 @@ export const Background = styled.div`
 
     position: relative;
     z-index: 4;
+
+    @media ${breakpoints.bg} {
+        height: 60vh;
+    }
+    @media ${breakpoints.md} {
+        height: 80vh;
+    }
+
 
 `
 export const MainContainer = styled.div`
@@ -46,6 +55,15 @@ export const ContPersonagens = styled.div`
 
     padding: 10px;
 
+    
+
+    @media ${breakpoints.md} {
+        flex-direction: column;
+        
+    }
+
+
+
 `
 export const PersonagemBoxStyle = styled.div`
         background-color: #071c3c;
@@ -69,6 +87,20 @@ export const PersonagemBoxStyle = styled.div`
         position: relative;
         z-index: 7;
 
+        
+    @media ${breakpoints.md} {
+        width: 400px;
+        height: 70px;
+        border-radius: 10px;
+
+        &:hover{
+            transform: scaleY(1);
+            width: 400px;
+            border-radius: 10px;
+
+        }
+
+    }           
     
 `
 
@@ -77,8 +109,11 @@ export const Personagem = styled.img`
     width: 350px;
 
     position: absolute;
-    right: -160px;
-    z-index: 10;
+
+    @media ${breakpoints.md} {
+    }           
+
+            
 `
 
 export const Indicador = styled.div`

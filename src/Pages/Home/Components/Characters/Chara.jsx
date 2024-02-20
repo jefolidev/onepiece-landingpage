@@ -10,7 +10,6 @@ function Chara(){
             image: "src/Pages/Home/Components/Characters/fotos/luffy.png",
             left: '-150px',
             top: '-5px',
-            background: 'darkred',
             
         },
         {
@@ -20,7 +19,6 @@ function Chara(){
             left: '-115px',
             top: '-250px',
             width: '600px',
-            background: 'green'   
         },
         {
             id: 3,
@@ -29,7 +27,6 @@ function Chara(){
             left: '-140px',
             top: '-120px',
             width: '500px',
-            background: '#186E9F'   
         },
         {
             id: 4,
@@ -38,7 +35,6 @@ function Chara(){
             left: '-140px',
             top: '0px',
             width: '300px',
-            background: '#A7A03A'
         },
         {
             id: 5,
@@ -47,7 +43,6 @@ function Chara(){
             left: '-200px',
             top: '0px',
             width: '600px',
-            background: '#D77E31'            
         },
         {
             id: 6,
@@ -56,7 +51,6 @@ function Chara(){
             left: '-160px',
             top: '-20px',
             width: '390px',
-            background: '#A8844B'            
         },
         {
             id: 7,
@@ -65,7 +59,6 @@ function Chara(){
             left: '-250px',
             top: '-50px',
             width: '600px',
-            background: '#171619'       
         },
         {
             id: 8,
@@ -74,7 +67,6 @@ function Chara(){
             left: '-240px',
             top: '-150px',
             width: '480px',
-            background: '#26365B'          
         },
         {
             id: 9,
@@ -83,7 +75,6 @@ function Chara(){
             left: '-140px',
             top: '0px',
             width: '400px',
-            background: '#676767'          
         },
         {
             id: 10,
@@ -92,7 +83,6 @@ function Chara(){
             left: '-140px',
             top: '0px',
             width: '510px',
-            background: '#33729F'          
         },
        
     ])

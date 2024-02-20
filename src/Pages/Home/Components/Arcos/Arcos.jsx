@@ -94,6 +94,16 @@ function Arcos(){
 
                     <Swiper style = {{padding: '10px'}}
                         slidesPerView={5}
+                        breakpoints = {{
+                            1010: {
+                                slidesPerView: 3,
+                                rows: 2,
+                            },
+                            390: {
+                                slidesPerView: 1,
+                                rows: 2,
+                            }
+                        }}                  
                         grid={{
                             rows: 2,
                             fill: "row",

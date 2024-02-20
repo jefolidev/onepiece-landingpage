@@ -12,11 +12,16 @@ import { BrowserRouter } from 'react-router-dom';
 
 
 export const GlobalStyle = createGlobalStyle`
-  body { 
+  html, body { 
     font-family: 'Montserrat', sans-serif;
     font-family: 'Bree Serif', serif;
     font-family: "Poppins", sans-serif;
     
+    width: 100%;
+    height: 100vh;
+
+    overflow-x: hidden;
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;  

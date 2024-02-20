@@ -14,6 +14,7 @@
 
 - [x] Mostrar informações de personagens do anime;
 - [x] Detalhes sobre os arcos do anime.
+- [x] Site Responsivo.
 
 ## UI
 <div align = "center">
@@ -58,7 +59,7 @@ $ npm insall
 
 
 ## Atualizações futuras
-- Adicionar responsividade ao site;
+- Atualizar as imagens de personagens quando estiver em telas menores;
 - Adicionar um bottão que role para o topo da página;
 - Adicionar mais informações sobre os personagens e arcos;
 - Fazer um "Hamburguer".
