@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import breakpoints from "../../size";
 
 export const Background = styled.div`
     background-color: rgba(2, 16, 36);
@@ -8,6 +9,13 @@ export const Background = styled.div`
     position: relative;
     z-index: 4;
     box-shadow: 0px 1px 15px rgba(0, 0, 0, .4);
+
+    @media ${breakpoints.bg} {
+        height: 60vh;
+    }
+    @media ${breakpoints.md} {
+        height: 60vh;
+    }
 
 
 `
@@ -65,6 +73,7 @@ export const Carrossel = styled.div `
     height: 20px;
     margin-left: 40px;    
     padding: 5px;
+    
 
 `
 

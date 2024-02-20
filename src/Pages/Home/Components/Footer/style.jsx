@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import breakpoints from "../../size";
 
 export const Background = styled.div`
     background-color: #0b1423;
@@ -8,6 +9,8 @@ export const Background = styled.div`
     display: flex;
         align-items: center;
         justify-content: center;
+
+
 `
 
 export const BlockCont = styled.div`
@@ -22,17 +25,30 @@ export const BlockCont = styled.div`
     
     border-radius: 15px;
     padding: 20px;
-    margin-right: 250px
+    margin-right: 250px;
+
+    @media ${breakpoints.bg} {
+        display: flex;
+        margin-right: 0px;
+    }
+        
+    
 `
 
 export const Contato = styled.div`
     display: flex;
         flex-direction: column;
 
+        @media (max-width: 1010px) {
+        display: none;
+    }
+    
+
 `
 export const ContatoInfos = styled.div`
     display: flex;
     align-items: center;
+
 `
 export const Title = styled.h1`
     margin: 0 auto;
