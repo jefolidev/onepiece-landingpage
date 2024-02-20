@@ -13,7 +13,7 @@
 ## Funcionalidade do projeto
 
 - [x] Mostrar informações de personagens do anime;
-- [x] Detalhes sobre os arcos do anime.
+- [x] Detalhes sobre os arcos do anime;
 - [x] Site Responsivo.
 
 ## UI
