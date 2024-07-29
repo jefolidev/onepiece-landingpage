@@ -33,13 +33,13 @@
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/jefolidev/OnePiece_Site.git
+$ git clone https://github.com/jefolidev/onepiece-landingpage.git
 
 # Acesse a pasta do proejeto no terminal
 # cd convertor-temp
 
 # Instale todas dependências
-$ npm insall
+$ npm intsall
 
 # Execute a aplicação
 ```
